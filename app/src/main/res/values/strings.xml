@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="tvTitulo">Rellene los siguientes campos:</string>
+    <string name="tvNombre">Nombre(*)</string>
+    <string name="tvApellidos">Apellidos(*)</string>
+    <string name="tvEdad">Edad(*)</string>
+    <string name="tvCarnet">Carnet de conducir</string>
+    <string name="tvCampoObligatorio">(*) campo obligatorio</string>
+    <string name="btnCargar">Enviar información</string>
+    <string name="btnVolver">Volver</string>
+    <string name="tvNombreSec">Nombre:</string>
+    <string name="tvApellidosSec">Apellidos:</string>
+    <string name="tvEdadSec">Edad:</string>
+</resources>

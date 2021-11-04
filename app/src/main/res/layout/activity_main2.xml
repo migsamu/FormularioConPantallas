@@ -7,16 +7,6 @@
     tools:context=".MainActivity2">
 
     <TextView
-        android:id="@+id/etNombreSec"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/tvNombreSec" />
-
-    <TextView
         android:id="@+id/tvApellidosSec"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +14,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/tvApellidosSec"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etNombreSec" />
+        app:layout_constraintTop_toBottomOf="@+id/tvNombreSec" />
 
     <TextView
         android:id="@+id/tvEdadSec"
@@ -53,7 +43,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="40dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/etNombreSec"
+        app:layout_constraintStart_toEndOf="@+id/tvNombreSec"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -81,9 +71,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="159dp"
         app:layout_constraintStart_toEndOf="@+id/tvCarnetSec"
-        app:layout_constraintTop_toBottomOf="@+id/tvEdadIntroducida" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnVolver"
@@ -95,4 +85,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvCarnetSec" />
+
+    <TextView
+        android:id="@+id/tvNombreSec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/tvNombreSec"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

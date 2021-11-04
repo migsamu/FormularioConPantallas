@@ -1,4 +1,4 @@
-package org.iesfm.formularioconpantallas;
+    package org.iesfm.formularioconpantallas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         pantallaSecundaria.putExtra(FORMULARIO_CON_PANTALLAS_NAME, name);
         pantallaSecundaria.putExtra(FORMULARIO_CON_PANTALLAS_SURNAME, surname);
         pantallaSecundaria.putExtra(FORMULARIO_CON_PANTALLAS_AGE, age);
-        pantallaSecundaria.putExtra(FORMULARIO_CON_PANTALLAS_AGE, carnet);
+        pantallaSecundaria.putExtra(FORMULARIO_CON_PANTALLAS_CARNET, carnet);
 
 
         startActivity(pantallaSecundaria);
